@@ -1,0 +1,71 @@
+
+
+GIT -> version control software (VCS)
+
+installations: -> Done
+
+
+Overview:
+
+Repositories (Project 1)	-> multiple branches 
+									-> dev
+									-> qa
+									-> uat 
+									-> pred
+									-> prod
+									-> release
+									
+									
+1. git clone (fresh)	-> username, password required , import to eclipse by git
+	git status -> to see any changes in the stagging repo
+	
+2. code changes, test & 
+	keep a backup
+	
+	push changes to repository (local repo or stagging repo)
+	
+	untracked files
+	
+	tracked files
+	
+local:	
+	git add <filename> <filename> <filename> -> add changes file to stagging
+	git commit -m "tririga-616 done developmemt"
+
+global
+	git push origin master
+
+
+
+
+
+2. git fetch
+   git rebase
+   or
+   git pull
+   
+   
+   conflicts
+   
+   
+   
+   
+Project 
+   
+git clone <url>
+
+code changes, test and push
+feature/pup-616
+
+
+git checkout -b <branchname>
+git add <file>
+git commit -m ""
+git push origin <branchname>
+
+
+
+git branch -> to view all branches
+
+git checkout <branch name> -> to switch to another branch
+git checkout -b <branch name> -> create a new branch
